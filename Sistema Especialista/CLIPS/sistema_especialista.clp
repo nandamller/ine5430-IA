@@ -118,7 +118,7 @@
 (defrule get_pressao_na_bexiga
   (declare (salience 9))
   =>
-  (printout t "Você tem pressao_na_bexiga? (sim/nao)" crlf)
+  (printout t "Você tem pressão na bexiga? (sim/nao)" crlf)
   (bind ?resposta (read))
   (assert (Sintomas (pressao_na_bexiga ?resposta))))
 
