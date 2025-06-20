@@ -8,9 +8,9 @@ goal_state = np.array([[1, 2, 3],
                        [7, 8, 0]])
 
 # Estado inicial embaralhado (exemplo)
-initial_state = np.array([[3, 4, 1],
-                          [2, 0, 8],
-                          [6, 5, 7]])
+initial_state = np.array([[1, 2, 3],
+                        [4, 0, 6],
+                        [7, 5, 8]])
 
 # Movimento: 0=up, 1=down, 2=left, 3=right
 directions = {
