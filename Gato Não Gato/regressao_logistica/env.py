@@ -1,0 +1,6 @@
+PREDICTION_THRESHOLD = 0.65
+
+LEARNING_RATE = 0.005
+NUM_ITERATIONS = 2000
+
+float_formatter = "{:.2f}".format
